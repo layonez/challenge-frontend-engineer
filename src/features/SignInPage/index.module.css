@@ -1,0 +1,81 @@
+.card {
+    padding-top: 0px;
+    padding-bottom: var(--space-lg);
+}
+
+.legend {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: var(--space-lg);
+}
+
+.logo {
+    position: absolute;
+    background: var(--color-main);
+    width: 60px;
+    height: 60px;
+    border-radius: var(--space-md);
+    margin-top: calc(var(--space-lg) * -2);
+}
+
+.title {
+    font-weight: 600;
+    margin-top: var(--space-xs);
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.label {
+    font-size: small;
+    font-weight: 600;
+    gap: var(--space-xs);
+    display: flex;
+    flex-direction: column;
+}
+
+.message {
+    font-size: 12px;
+    color: gray;
+    font-weight: 500;
+    padding: 0 var(--space-sm);
+}
+
+.inputField {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: var(--space-xs);
+    background-color: var(--color-background);
+    line-height: var(--space-md);
+}
+
+.errorMessage {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 8px;
+    color: var(--color-invalid);
+    min-height: 1em;
+}
+
+.formErrorMessage {
+    margin-top: 0;
+}
+
+.submitButton {
+    padding: var(--space-sm);
+    background: var(--color-main);
+    color: #fff;
+    border: none;
+    border-radius: var(--space-xs);
+    cursor: pointer;
+    margin-bottom: var(--space-xs);
+
+    &:disabled {
+        background-color: gray;
+    }
+}

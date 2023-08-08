@@ -1,0 +1,9 @@
+.card {
+  max-width: 280px;
+  backdrop-filter: blur(5px);
+  border-radius: var(--space-md);
+  opacity: 0.9;
+  padding: var(--space-md);
+  box-shadow: 0 0 10px 6px #2a443a25;
+  background: white;
+}
